@@ -1,1 +1,24 @@
-{"visual":{"name":"taskChart","displayName":"TaskChart","guid":"taskChartF42768A98C494AF199B2FC622DF8AC0F","visualClassName":"Visual","version":"1.0.0","description":"","supportUrl":"","gitHubUrl":""},"apiVersion":"2.6.0","author":{"name":"","email":""},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[]}
+{
+    "visual": {
+        "name": "taskChart",
+        "displayName": "TaskChart",
+        "guid": "taskChartF42768A98C494AF199B2FC622DF8AC0F",
+        "visualClassName": "Visual",
+        "version": "0.0.1",
+        "description": "TaskChart",
+        "supportUrl": "git@github.com:m0sk1t/taskChart.git",
+        "gitHubUrl": "git@github.com:m0sk1t/taskChart.git"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "ArtKom",
+        "email": "v-artkom@microsoft.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

@@ -5,8 +5,8 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
 
-var taskChartF42768A98C494AF199B2FC622DF8AC0F_DEBUG: IVisualPlugin = {
-    name: 'taskChartF42768A98C494AF199B2FC622DF8AC0F_DEBUG',
+var taskChartF42768A98C494AF199B2FC622DF8AC0F: IVisualPlugin = {
+    name: 'taskChartF42768A98C494AF199B2FC622DF8AC0F',
     displayName: 'TaskChart',
     class: 'Visual',
     apiVersion: '2.6.0',
@@ -23,7 +23,7 @@ var taskChartF42768A98C494AF199B2FC622DF8AC0F_DEBUG: IVisualPlugin = {
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["taskChartF42768A98C494AF199B2FC622DF8AC0F_DEBUG"] = taskChartF42768A98C494AF199B2FC622DF8AC0F_DEBUG;
+    powerbi.visuals.plugins["taskChartF42768A98C494AF199B2FC622DF8AC0F"] = taskChartF42768A98C494AF199B2FC622DF8AC0F;
 }
 
-export default taskChartF42768A98C494AF199B2FC622DF8AC0F_DEBUG;
+export default taskChartF42768A98C494AF199B2FC622DF8AC0F;
