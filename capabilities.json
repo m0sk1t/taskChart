@@ -1,0 +1,51 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Employee Name",
+            "name": "employeeName",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Task Title",
+            "name": "taskTitle",
+            "kind": "GroupingOrMeasure"
+        },
+        {
+            "displayName": "Task Completeness %",
+            "name": "taskComplete",
+            "kind": "Measure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "taskTitle": {
+                        "max": 1
+                    }
+                },
+                {
+                    "taskComplete": {
+                        "max": 1
+                    }
+                }
+            ],
+            "table": {
+                "rows": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "taskTitle"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "taskComplete"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
